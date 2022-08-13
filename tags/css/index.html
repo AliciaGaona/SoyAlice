@@ -1,0 +1,615 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang='en'><head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href='/favicon.ico' type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>css - Monochrome</title>
+
+    
+
+    
+
+    
+    <meta name="author" content="kaiiiz" />
+    
+
+    
+        <meta property="og:title" content="css" />
+<meta property="og:description" content="A new Hugo site." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://example.com/tags/css/" /><meta property="og:image" content="https://example.com/tn.png"/><meta property="og:site_name" content="Call me Sam" />
+
+
+    
+
+    
+        <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://example.com/tn.png"/>
+
+<meta name="twitter:title" content="css"/>
+<meta name="twitter:description" content="A new Hugo site."/>
+
+    <link rel="stylesheet" href="/style.min.5297c96c59a52afaa5bcda4a6cedf3813081f64025c209b25b2ee6d0c8f74d462b625ad3404a92a14d7a51b4ec0a420337ae70f426fa4bce2d5f7459a3ca7274.css" integrity="sha512-UpfJbFmlKvqlvNpKbO3zgTCB9kAlwgmyWy7m0Mj3TUYrYlrTQEqSoU16UbTsCkIDN65w9Cb6S84tX3RZo8pydA==">
+
+
+
+
+
+    
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    </script>
+<script defer src="/js/header.7a2a109ec3782c57bad0332b662f8a5f41765505936b69868eb8bd5241de9daf23c388e82ca1831f6d09935013dcb9f71bfa7face3975880c1076028b7b0a6e1.js" integrity="sha512-eioQnsN4LFe60DMrZi&#43;KX0F2VQWTa2mGjri9UkHena8jw4joLKGDH20Jk1AT3Ln3G/p/rOOXWIDBB2Aot7Cm4Q=="></script>
+
+
+
+    <script defer src="/js/zooming.684b5d075bf94d0adfa21a7e7eb9acec1ddfb2e7b47d6657981617f0db0cf50949f1172801595afa3051f51b28d67f6a2d0c41be677b59b564307d9dbe4a4fd2.js" integrity="sha512-aEtdB1v5TQrfohp&#43;frms7B3fsue0fWZXmBYX8NsM9QlJ8RcoAVla&#43;jBR9Rso1n9qLQxBvmd7WbVkMH2dvkpP0g=="></script>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    <script defer src="/js/search-en.677e05c714f837051483647d736c45051126c22a2696ca5f981b59da962d48962f3ea71150f559ba84884fd1aadf1c7aadce55bb31a3e5b75c0f173b763c109a.js" integrity="sha512-Z34FxxT4NwUUg2R9c2xFBREmwiomlspfmBtZ2pYtSJYvPqcRUPVZuoSIT9Gq3xx6rc5VuzGj5bdcDxc7djwQmg=="></script>
+
+
+
+
+</head><body>
+        <main><header>
+    <div class="brand">
+        <div id="sidebar_btn">
+            <svg id="menu_icon" width="26px" height="26px" viewBox="0 0 24 24"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></svg>
+        </div>
+
+        <div>
+            <a href="/">Monochrome</a>
+        </div>
+    </div>
+
+    <div class="toolbox">
+        <div id="theme_tool">
+            <svg id="dark_mode_btn" class="hidden toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></svg>
+            <svg id="light_mode_btn" class="hidden toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></svg>
+        </div>
+
+        
+            <div id="search_tool">
+                <svg id="search_btn" class="toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></svg><div id="search_menu_wrapper" class="hidden">
+    <div id="search_menu">
+        <div id="search_menu_toolbar">
+            <div id="search_menu_input_wrapper">
+                <input id="search_menu_input" type="text" placeholder='Search Posts'>
+            </div>
+            <div id="search_menu_close_btn">
+                <svg width="18px" height="18px" viewBox="0 0 24 24"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></svg>
+            </div>
+        </div>
+        <div id="search_menu_results">
+        </div>
+    </div>
+</div>
+</div>
+        
+
+        
+            <div id="translation_tool" class="dropdown-wrapper pure-menu pure-menu-horizontal toolbox-btn">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                        <div class="dropdown-btn pure-menu-link">
+                            <svg width="18px" height="18px" viewBox="0 0 24 24"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></svg>
+                            <span class="dropdown-desc">English</span>
+                        </div>
+                        <ul class="pure-menu-children">
+                            
+                            <li class="pure-menu-item">
+                                <a href="https://example.com/" class="pure-menu-link">English</a>
+                            </li>
+                            
+                            <li class="pure-menu-item">
+                                <a href="https://example.com/zh-tw/" class="pure-menu-link">正體中文</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        
+    </div>
+</header>
+<nav id="navbar" class="pure-menu"><ul class="pure-menu-list"><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/setup/" class="pure-menu-link">Setup</a>
+                    
+                </li><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/changelog/" class="pure-menu-link">Changelog</a>
+                    
+                </li><li class="navbar-item navbar-dropdown pure-menu-item pure-menu-has-children pure-menu-allow-hover ">
+                    
+                        <a href="/configuration/" class="pure-menu-link">Configuration</a>
+                    
+                    <ul class="pure-menu-children">
+    
+        <li class="pure-menu-item">
+            
+                <a href="/configuration/site" class="pure-menu-link">Site Settings</a>
+            
+        </li>
+    
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/configuration/theme" class="pure-menu-link">Theme Settings</a>
+            
+        </li>
+    
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/configuration/page" class="pure-menu-link">Page Settings</a>
+            
+        </li>
+    
+
+</ul>
+                </li><li class="navbar-item navbar-dropdown pure-menu-item pure-menu-has-children pure-menu-allow-hover ">
+                    
+                        <a href="/layouts/" class="pure-menu-link">Layouts</a>
+                    
+                    <ul class="pure-menu-children">
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/balloon" class="pure-menu-link">Balloon</a>
+            
+            <ul class="pure-menu-children">
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/balloon/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/balloon/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/blank" class="pure-menu-link">Blank</a>
+            
+            <ul class="pure-menu-children">
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/blank/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/blank/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/bookcase" class="pure-menu-link">Bookcase</a>
+            
+            <ul class="pure-menu-children">
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/bookcase/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/bookcase/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/gallery" class="pure-menu-link">Gallery</a>
+            
+            <ul class="pure-menu-children">
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/gallery/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/gallery/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/list" class="pure-menu-link">List</a>
+            
+            <ul class="pure-menu-children">
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/list/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/list/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/postcard" class="pure-menu-link">Postcard</a>
+            
+            <ul class="pure-menu-children">
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/postcard/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/postcard/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+</ul>
+                </li><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/shortcodes/" class="pure-menu-link">Shortcodes</a>
+                    
+                </li><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/posts/" class="pure-menu-link">Posts</a>
+                    
+                </li></ul>
+</nav>
+<div id="sidebar_canvas_overlay" class="hidden"></div>
+<div id="sidebar" class="close">
+    <ul><li>
+                    <a href="/setup/">Setup</a>
+                </li><li>
+                    <a href="/changelog/">Changelog</a>
+                </li><li>
+                    <details>
+                        <summary><a href="/configuration/">Configuration</a></summary>
+    <ul>
+        
+            
+                <li>
+                    
+                        <a href="/configuration/site">Site Settings</a>
+                    
+                </li>
+            
+        
+            
+                <li>
+                    
+                        <a href="/configuration/theme">Theme Settings</a>
+                    
+                </li>
+            
+        
+            
+                <li>
+                    
+                        <a href="/configuration/page">Page Settings</a>
+                    
+                </li>
+            
+        
+    </ul>
+</details>
+                </li><li>
+                    <details>
+                        <summary><a href="/layouts/">Layouts</a></summary>
+    <ul>
+        
+            
+                <li>
+                    <details>
+                        <summary>
+                            
+                                <span><a href="/layouts/balloon">Balloon</a></span>
+                            
+                        </summary>
+    <ul>
+        
+            
+                <li>
+                    
+                        <a href="/layouts/balloon/demo">Demo</a>
+                    
+                </li>
+            
+        
+            
+                <li>
+                    
+                        <a href="/layouts/balloon/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</details>
+                </li>
+            
+        
+            
+                <li>
+                    <details>
+                        <summary>
+                            
+                                <span><a href="/layouts/blank">Blank</a></span>
+                            
+                        </summary>
+    <ul>
+        
+            
+                <li>
+                    
+                        <a href="/layouts/blank/demo">Demo</a>
+                    
+                </li>
+            
+        
+            
+                <li>
+                    
+                        <a href="/layouts/blank/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</details>
+                </li>
+            
+        
+            
+                <li>
+                    <details>
+                        <summary>
+                            
+                                <span><a href="/layouts/bookcase">Bookcase</a></span>
+                            
+                        </summary>
+    <ul>
+        
+            
+                <li>
+                    
+                        <a href="/layouts/bookcase/demo">Demo</a>
+                    
+                </li>
+            
+        
+            
+                <li>
+                    
+                        <a href="/layouts/bookcase/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</details>
+                </li>
+            
+        
+            
+                <li>
+                    <details>
+                        <summary>
+                            
+                                <span><a href="/layouts/gallery">Gallery</a></span>
+                            
+                        </summary>
+    <ul>
+        
+            
+                <li>
+                    
+                        <a href="/layouts/gallery/demo">Demo</a>
+                    
+                </li>
+            
+        
+            
+                <li>
+                    
+                        <a href="/layouts/gallery/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</details>
+                </li>
+            
+        
+            
+                <li>
+                    <details>
+                        <summary>
+                            
+                                <span><a href="/layouts/list">List</a></span>
+                            
+                        </summary>
+    <ul>
+        
+            
+                <li>
+                    
+                        <a href="/layouts/list/demo">Demo</a>
+                    
+                </li>
+            
+        
+            
+                <li>
+                    
+                        <a href="/layouts/list/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</details>
+                </li>
+            
+        
+            
+                <li>
+                    <details>
+                        <summary>
+                            
+                                <span><a href="/layouts/postcard">Postcard</a></span>
+                            
+                        </summary>
+    <ul>
+        
+            
+                <li>
+                    
+                        <a href="/layouts/postcard/demo">Demo</a>
+                    
+                </li>
+            
+        
+            
+                <li>
+                    
+                        <a href="/layouts/postcard/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</details>
+                </li>
+            
+        
+    </ul>
+</details>
+                </li><li>
+                    <a href="/shortcodes/">Shortcodes</a>
+                </li><li>
+                    <a href="/posts/">Posts</a>
+                </li></ul>
+</div><div id="content" class="content-margin">
+                <div>
+    <h1>css</h1>
+    
+        <ul class="list-layout">
+            
+                <li>
+                    <a href="/posts/markdown-syntax/">Markdown Syntax Guide</a>
+                    <span>2019/03/11</span>
+                </li>
+            
+        </ul>
+    
+</div>
+
+                
+                    
+                
+            </div>
+<footer>
+    <article>Copyright © 2021-2022 by kaiiiz</article>
+</footer>
+
+</main>
+    </body>
+</html>
